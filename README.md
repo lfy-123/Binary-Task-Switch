@@ -17,25 +17,11 @@ As an effective approach to equip models with multi-task capabilities without ad
 
 **Figure2**: Overview of our method: T-Switch and Auto-Switch. The left side illustrates the construction process of the task switch, where noise parameters in the task vectors are discarded, and the remaining parameters are binarized to form the task switch. The upper right corner shows the inference process of our T-Switch using the task switch. The lower right corner demonstrates how our Auto-Switch automatically selects the task switch based on data features.
 
-# Installation
+# Get Start
 
-**For Merging ViT Experiment:**
-```bash
-Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
-```
+Try merging ViT models: [link](https://github.com/lfy-123/Binary-Task-Switch/blob/main/merge_vit/README.md)
 
-**For LORA Experiment:**
-After installing the previous step, install peft.
-```bash
-pip install peft
-```
-
-**For Merging Roberta Experiment:**
-
-Please follow [DARE](https://github.com/yule-BUAA/MergeLM) to install the dependencies.
-Additionally, install scipy, sklearn, torchmetrics, evaluate.
-
-
+Try merging Roberta model: [link](https://github.com/lfy-123/Binary-Task-Switch/blob/main/merge_roberta/README.md)
 
 
 

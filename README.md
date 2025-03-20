@@ -22,19 +22,23 @@ As an effective approach to equip models with multi-task capabilities without ad
 Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
 ```
 
+**For LORA Experiment:**
+After installing the previous step, install peft.
+```bash
+pip install peft
+```
+
 **For Merging Roberta Experiment:**
 
 Please follow [DARE](https://github.com/yule-BUAA/MergeLM) to install the dependencies.
 Additionally, install scipy, sklearn, torchmetrics, evaluate.
 
 
-**For LORA Experiment:**
-```bash
-pip install peft
-```
+
 
 
 # Acknowledgement
+
 Our implementation references the code below, thanks to them.
 
 EMR-Merging: https://github.com/harveyhuang18/EMR_Merging

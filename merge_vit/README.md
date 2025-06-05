@@ -21,8 +21,19 @@ pip install peft
 
 ## Get Started
 You can find the instructions for merging ViT-B-32, ViT-L-14, ViT-B-32+LoRA from the [run_merge_vit.sh](./run_merge_vit.sh).
-> bash run_merge_vit.sh
+```bash
+bash run_merge_vit.sh
+```
 
+### Parameters:
+
+**--drop-ratio:** Set dropout rate.
+
+**--group_size:** Specifies the size of the groups during task vector compression.
+
+**--knn-pre-sample-num:** Defines the number of samples collected for each dataset in KNN.
+
+**--knn-neighbors:** Specifies the number of neighbors to use in the KNN algorithm.
 
 
 

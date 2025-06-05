@@ -1,50 +1,45 @@
- # Merging Language Models (LMs)
+# Merging Language Models (LMs)
 
 ## Checkpoints
 
-**RoBERTa**: You can download the fine-tuned checkpoints from huggingface [here]().
+**RoBERTa**: You can download the fine-tuned checkpoints from Hugging Face [here](<insert link>).
 
-Place the checkpoints as follows:
-
-```
-│cktps/
-├──roberta/
-│  ├── cola/
-│  │  ├── config.json
-│  │  ├──......
-│  ├── sst2/
-│  │  ├── config.json
-│  │  ├──......
-│  ├── ......
-├──roberta-base/
-│  ├── config.json
-│  ├──......
-```
+Place the checkpoints as described in the [documentation](./ckpts/README.md).
 
 ## Data
-The [**data**]() folder contains two folders, one for evaluation and one for the glue dataset
-https://github.com/huggingface/evaluate
+
+The [**data**](<insert link>) folder contains two subfolders:
+- One for the [evaluate](https://github.com/huggingface/evaluate) dataset.
+- One for the [GLUE dataset](https://huggingface.co/datasets/nyu-mll/glue/tree/main).
+
+Place these two folders following the instructions in the [documentation](./data/README.md).
 
 ## Dependencies
 
-Please follow [DARE](https://github.com/yule-BUAA/MergeLM) to install the dependencies.
+Please follow the instructions in the [DARE repository](https://github.com/yule-BUAA/MergeLM) to install the dependencies.
 
-Additionally, install scipy, sklearn, torchmetrics, evaluate.
+Additionally, install the following Python packages:
+- `scipy`
+- `sklearn`
+- `torchmetrics`
+- `evaluate`
 
+## Get Started
 
+The `run_merge_roberta.sh` script contains instructions for fusing the RoBERTa model.
+To get started, run the script:
+```bash
+bash run_merge_roberta.sh
+```
+### Parameters:
 
-You can modify the `cache_dir` in the `utils/load_config.py` file to specify your own path to save the datasets.
+**--drop_ratio:** Set dropout rate.
 
-## Eval
+**--group_size:** Specifies the size of the groups during task vector compression.
 
-#### Merge RoBERTa models
+**--eval_subset_size:** Represents the maximum size of the evaluation dataset.
 
-> python merge_roberta_glue.py
+**--knn_samples_per_dataset:** Defines the number of samples collected for each dataset in KNN.
 
-#### Merge GPT-2 models
+**--knn_neighbors:** Specifies the number of neighbors to use in the KNN algorithm.
 
-> python merge_gpt_glue.py
-
-## Results
-
-Results for our EMR-Merging will be saved in ./save_merge_logs.

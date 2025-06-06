@@ -2,7 +2,7 @@
 
 ## Checkpoints
 
-**RoBERTa**: You can download the fine-tuned checkpoints from Hugging Face [here](<insert link>).
+**RoBERTa**: You can download the fine-tuned checkpoints from Hugging Face [here](https://huggingface.co/lfy-hg/roberta_base_on_glue).
 
 Place the checkpoints as described in the [documentation](./ckpts/README.md).
 

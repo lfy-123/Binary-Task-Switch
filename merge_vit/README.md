@@ -6,7 +6,7 @@ Please follow [Adamerging](https://github.com/EnnengYang/AdaMerging?tab=readme-o
 Please follow [doc](./data/README.md) to place these datasets.
 
 ## Checkpoints
-You can download the fine-tuned checkpoints from the [Google Drive folder]()
+You can download the fine-tuned checkpoints from the [huggingface](https://huggingface.co/lfy-hg/ViTs-on-multi-dataset).
 
 Please follow [doc](./ckpts/README.md) to place these checkpoints.
 

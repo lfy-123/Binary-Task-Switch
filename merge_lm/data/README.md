@@ -1,11 +1,9 @@
 ```
 │data/
 ├──evaluate/
-│  ├── cola/
-│  │  ├── config.json
+│  ├── comparisons/
 │  │  ├──......
-│  ├── sst2/
-│  │  ├── config.json
+│  ├── measurements/
 │  │  ├──......
 │  ├── ......
 ├──glue/

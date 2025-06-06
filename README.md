@@ -19,9 +19,9 @@ As an effective approach to equip models with multi-task capabilities without ad
 
 # Get Start
 
-Try merging ViT models: [link](https://github.com/lfy-123/Binary-Task-Switch/blob/main/merge_vit/README.md)
+Try merging ViT models: [link](./merge_vit/README.md)
 
-Try merging Roberta model: [link](https://github.com/lfy-123/Binary-Task-Switch/blob/main/merge_roberta/README.md)
+Try merging Roberta model: [link](./merge_lm/README.md)
 
 
 

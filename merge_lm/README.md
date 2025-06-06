@@ -8,7 +8,7 @@ Place the checkpoints as described in the [documentation](./ckpts/README.md).
 
 ## Data
 
-The [**data**](<insert link>) folder contains two subfolders:
+The [**data**](./data) folder should contain two subfolders:
 - One for the [evaluate](https://github.com/huggingface/evaluate) dataset.
 - One for the [GLUE dataset](https://huggingface.co/datasets/nyu-mll/glue/tree/main).
 

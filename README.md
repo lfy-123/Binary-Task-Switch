@@ -19,9 +19,9 @@ As an effective approach to equip models with multi-task capabilities without ad
 
 # Get Start
 
-Try merging ViT models: [link](./merge_vit/README.md)
+Try merging ViT models, click [here](./merge_vit/README.md)
 
-Try merging Roberta model: [link](./merge_lm/README.md)
+Try merging Roberta model, click [here](./merge_lm/README.md)
 
 
 

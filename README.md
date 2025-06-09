@@ -5,7 +5,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.00054-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2412.00054)
 
-Biqing Qi <sup>1</sup>, Fangyuan Li <sup>2</sup>, Zhen Wang <sup>3</sup>, Junqi Gao <sup>1,3,†</sup>, Dong Li <sup>1,3</sup>, Peng Ye <sup>1</sup>, Bowen Zhou <sup>1,4,†</sup>
+_Biqing Qi <sup>1</sup>, Fangyuan Li <sup>2</sup>, Zhen Wang <sup>3</sup>, Junqi Gao <sup>1,3,†</sup>, Dong Li <sup>1,3</sup>, Peng Ye <sup>1</sup>, Bowen Zhou <sup>1,4,†</sup>_
 
 <sup>1</sup> _Shanghai Artificial Intelligence Laboratory_
 

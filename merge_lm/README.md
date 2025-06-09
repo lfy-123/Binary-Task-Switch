@@ -16,21 +16,27 @@ Place these two folders following the instructions in the [documentation](./data
 
 ## Dependencies
 
-Please follow the instructions in the [DARE repository](https://github.com/yule-BUAA/MergeLM) to install the dependencies.
+You can create an environment **merge_lm** using the following command:
 
-Additionally, install the following Python packages:
-- `scipy`
-- `sklearn`
-- `torchmetrics`
-- `evaluate`
+```bash
+conda env create -f environment.yml
+```
 
 ## Get Started
 
-The `run_merge_roberta.sh` script contains instructions for fusing the RoBERTa model.
-To get started, run the script:
-```bash
-bash run_merge_roberta.sh
+The `run_merge_roberta.sh` script contains commands for merging the RoBERTa models, or you can run the code using the following commands:
+
+```python
+conda activate merge_lm
+python merge_roberta.py \
+    --drop_ratio 0.7 \
+    --group_size 4 \
+    --batch_size 16 \
+    --eval_subset_size 500 \
+    --knn_samples_per_dataset 100 \
+    --knn_neighbors 5
 ```
+
 ### Parameters:
 
 **--drop_ratio:** Set dropout rate.

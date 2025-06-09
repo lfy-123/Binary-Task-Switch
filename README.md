@@ -55,5 +55,6 @@ TIES-MERGING: https://github.com/prateeky2806/ties-merging/tree/main
 
 DARE: https://github.com/yule-BUAA/MergeLM
 
+Adamerging: https://github.com/EnnengYang/AdaMerging?tab=readme-ov-file#datasets
 
 

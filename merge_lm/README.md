@@ -2,9 +2,9 @@
 
 ## Checkpoints
 
-**RoBERTa**: You can download the fine-tuned checkpoints from Hugging Face [here](https://huggingface.co/lfy-hg/roberta_base_on_glue).
+**RoBERTa**: You can download the fine-tuned checkpoints from [Hugging Face](https://huggingface.co/lfy-hg/roberta_base_on_glue) and also need to download the [roberta-base](https://huggingface.co/FacebookAI/roberta-base) model.
 
-Place the checkpoints as described in the [documentation](./ckpts/README.md).
+Place the checkpoints and roberta-base as described in the [doc](./ckpts/README.md).
 
 ## Data
 
@@ -12,7 +12,7 @@ The [**data**](./data) folder should contain two subfolders:
 - One for the [evaluate](https://github.com/huggingface/evaluate) dataset.
 - One for the [GLUE dataset](https://huggingface.co/datasets/nyu-mll/glue/tree/main).
 
-Place these two folders following the instructions in the [documentation](./data/README.md).
+Place these two folders following the instructions in the [doc](./data/README.md).
 
 ## Dependencies
 

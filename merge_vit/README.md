@@ -11,18 +11,54 @@ You can download the fine-tuned checkpoints from the huggingface [here](https://
 Please follow [doc](./ckpts/README.md) to place these checkpoints.
 
 ## Dependencies
-Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
+
+You can create an environment **merge** using the following command:
+
+```bash
+conda env create -f environment.yml
+```
 
 **For LORA Experiment:**
 After installing the above environment, it is necessary to install the PEFT.
 ```bash
+conda create -n merge_lora --clone merge
+conda activate merge_lora
 pip install peft
 ```
 
 ## Get Started
-You can find the instructions for merging ViT-B-32, ViT-L-14, ViT-B-32+LoRA from the [run_merge_vit.sh](./run_merge_vit.sh).
-```bash
-bash run_merge_vit.sh
+You can find the all commands for merging ViT-B-32, ViT-L-14 and ViT-B-32+LoRA from the [run_merge_vit.sh](./run_merge_vit.sh).
+
+Merging eight ViT-B-32 models:
+```python
+conda activate merge
+python merge_vit.py --model-type "ViT-B-32" \
+--drop-ratio 0.6 \
+--group_size 4 \
+--knn-neighbors 10 \
+--knn-pre-sample-num 100 \
+--batch-size 256
+```
+Merging eight ViT-L-14 models:
+```python
+conda activate merge
+python merge_vit.py --model-type "ViT-L-14" \
+--drop-ratio 0.6 \
+--group_size 4 \
+--knn-neighbors 10 \
+--knn-pre-sample-num 100 \
+--batch-size 256
+```
+Merging eight ViT-B-32 LoRA models:
+```python
+conda activate merge_lora
+python merge_vit_lora.py --model-type "ViT-B-32" \
+--drop-ratio 0.4 \
+--group_size 4 \
+--lora-rank 64 --lr 1e-4 \
+--knn-neighbors 10 \
+--knn-pre-sample-num 100 \
+--batch-size 256
 ```
 
 ### Parameters:

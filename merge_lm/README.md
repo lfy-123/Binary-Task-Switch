@@ -9,8 +9,8 @@ Place the checkpoints and roberta-base as described in the [doc](./ckpts/README.
 ## Data
 
 The [**data**](./data) folder should contain two subfolders:
-- One for the [evaluate](https://github.com/huggingface/evaluate) dataset.
-- One for the [GLUE dataset](https://huggingface.co/datasets/nyu-mll/glue/tree/main).
+- One for the [evaluate](https://github.com/huggingface/evaluate).
+- One for the [GLUE](https://huggingface.co/datasets/nyu-mll/glue/tree/main).
 
 Place these two folders following the instructions in the [doc](./data/README.md).
 

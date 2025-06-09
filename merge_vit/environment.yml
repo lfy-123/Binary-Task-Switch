@@ -1,4 +1,4 @@
-name: task-vectors
+name: merge
 channels:
   - pytorch
   - conda-forge

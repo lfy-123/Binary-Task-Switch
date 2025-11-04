@@ -1,7 +1,7 @@
 # Merging Vision Transformers (ViTs)
 
 ## Datasets
-Please follow [Adamerging](https://github.com/EnnengYang/AdaMerging?tab=readme-ov-file#datasets) to download the datasets. Or you can download from [Baidu Cloud Disk](https://pan.baidu.com/s/1fBuqC3TaimFPBz83eSIyDQ?pwd=at84)
+Please follow [Adamerging](https://github.com/EnnengYang/AdaMerging?tab=readme-ov-file#datasets) to download the datasets. Or you can download from [Baidu Cloud Disk](https://pan.baidu.com/s/1fBuqC3TaimFPBz83eSIyDQ?pwd=at84).
 
 Please follow [doc](./data/README.md) to place these datasets.
 

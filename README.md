@@ -1,3 +1,4 @@
+This is the official implementation of our CVPR 2025 Spotlight Paper.
 <div align="center">
    
 ## Less is More: Efficient Model Merging with Binary Task Switch
